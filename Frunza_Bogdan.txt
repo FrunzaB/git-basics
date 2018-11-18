@@ -1,0 +1,29 @@
+yum install git
+y
+git clone 
+git clone https://github.com/FrunzaB/git-basics.git
+nano myfile1.txt
+git add myfile1.txt
+git pull
+cd git-basics
+nano myfile1.txt
+git add myfile1.txt
+git commit -m'myfile1.txt'
+git push origin master
+git checkout -b br1
+mkdir br1
+git checkout br1
+cd br1
+nano myfile2.txt
+git add .
+git commit -m 'myfile2.txt'
+git push origin
+git push origin br1
+cd ..
+git checkout master
+git merge br1
+1
+git push master
+git push
+history -w/ Frunza_Bogdan.txt
+history -w ./Frunza_Bogdan.txt
